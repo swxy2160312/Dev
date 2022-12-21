@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2022/10/19 23:13:07</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/advi/e000/trc001/trc001.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/benchmark-blocked</arg>
+  <arg>131409</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/benchmark-blocked</arg>
+  <arg>0x400000</arg>
+  <arg>0x652747</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x2b4596701000</arg>
+  <arg>0x2b459692414f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffead516000</arg>
+  <arg>0x7ffead516e6c</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_intel_lp64.so.1</arg>
+  <arg>0x2b45ac26a000</arg>
+  <arg>0x2b45acfa4bbf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_sequential.so.1</arg>
+  <arg>0x2b45acfe4000</arg>
+  <arg>0x2b45aebeea97</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:20 2022</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_core.so.1</arg>
+  <arg>0x2b45aebef000</arg>
+  <arg>0x2b45b6bb4797</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libpthread.so.0</arg>
+  <arg>0x2b45b6be4000</arg>
+  <arg>0x2b45b6dff487</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <arg>0x2b45b6e07000</arg>
+  <arg>0x2b45b7108137</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libgcc_s.so.1</arg>
+  <arg>0x2b45b7109000</arg>
+  <arg>0x2b45b731e3ff</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <arg>0x2b45b7323000</arg>
+  <arg>0x2b45b76f01ff</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <arg>0x2b45b76f1000</arg>
+  <arg>0x2b45b78f412f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_avx512.so.1</arg>
+  <arg>0x2b45bf154000</arg>
+  <arg>0x2b45c2eb05c7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:21 2022</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_vml_avx512.so.1</arg>
+  <arg>0x2b45c4262000</arg>
+  <arg>0x2b45c5176f27</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:13:22 2022</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/benchmark-blocked</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_intel_lp64.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_sequential.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_core.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="27" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="28" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="29" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="30" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="31" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="32" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_avx512.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="33" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/gpfs/home/bxjs_04/intel/oneapi/mkl/latest/lib/intel64/libmkl_vml_avx512.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="34" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/benchmark-blocked</arg>
+  <arg>131409</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 19 23:15:27 2022</timestamp>
+</msg>
+<msg id="35" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="36" tool="runtool">
+  <type>marker-file</type>
+  <arg>/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/advi/e000/trc001/trc001.advixe</arg>
+</msg>
+<msg id="37" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="38" tool="runtool">
+  <type>log-end</type>
+  <arg>2022/10/19 23:15:31</arg>
+</msg>
+
+</log>
+

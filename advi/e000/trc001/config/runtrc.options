@@ -1,0 +1,13 @@
+-r
+/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/advi/e000/trc001
+-quiet
+-cs-file
+/gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/advi/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int
+--jit-profiling
+--gpu-collect-traffic
+--
+./benchmark-blocked

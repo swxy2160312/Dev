@@ -1,0 +1,10 @@
+
+=== Start: [2022/10/19 23:13:07] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/advi/e000/trc001/trc001.advixe 
+Application exit code: 0 
+Result file: /gpfs/home/bxjs_04/songzirong/Homework3/Homework3/dgemm/advi/e000/trc001/trc001.advixe 
+Analysis completed
+=== End: [2022/10/19 23:15:31] === 
